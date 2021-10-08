@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" 
+    rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" 
+    crossorigin="anonymous">
+    <link rel="stylesheet" href="/CSS/styletest2.css">
+
+    <title>Bootstrap</title>
+</head>
+<body>
+    
+    <!-- <nav class="navbar">
+        <a href="/HTML/index.html" class="navbar-brand">First page</a>
+        <ul class="navbar-nav">
+            <li class="nav-item">page 1</li>
+            <a href="/HTML/index.html" class="nav-link">index</a>
+            <li class="nav-item">page 1</li>
+            <a href="/HTML/index.html" class="nav-link">index2</a>
+            <li class="nav-item">page 1</li>
+            <a href="/HTML/index.html" class="nav-link">index3</a>
+            <li class="nav-item">page 1</li>
+            <a href="/HTML/index.html" class="nav-link">index4</a>
+        </ul>
+    </nav> -->
+
+    <!-- <ul class="nav justify-content-center">
+        <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="/HTML/index.html">Active</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/HTML/index.html">Link</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/HTML/index.html">Link2</a>
+          </li>
+    </ul> -->
+
+    <!-- <nav class="navbar navbar-dark bg-dark">
+        <a href="link/to/page" class="navbar-brand">My Company</a>
+        <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#hasToMatch">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="hasToMatch">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a href="link/to/login" class="nav-link">Login</a>
+                </li>
+                <li class="nav-item">
+                    <a href="link/to/home" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="link/to/memes" class="nav-link">Memes</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container wireframe">
+        <div class="row justify-content-around row-wireframe">
+            <div class="col-2 wireframe">
+                Row 1 Column 1
+            </div>
+            <div class="col-4 wireframe">
+                Row 1 Column 2
+            </div>
+            <div class="col-4 wireframe">
+                Row 1 Column 3
+            </div>
+        </div>
+        <div class="row justify-content-between row-wireframe">
+            <div class="col-4 wireframe">
+                Row 2 Left
+            </div>
+            <div class="col-4 wireframe">
+                Row 2 Right
+            </div>
+        </div>
+    </div> -->
+
+    <form action="">
+        <div class="row">
+            <div class="col-5">
+                <label for="firstname">First Name</label>
+                <input type="text" name="username" id="username" class="form-control">
+            </div>
+            <div class="col-5">
+                <label for="lastname">Last Name</label>
+                <input type="text" name="lastname" id="lastname" class="form-control">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <label for="password">Password</label>
+                <input type="text" name="password" id="password" class="form-control">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <label for="signup">Do you want to be bombarded by meaningless emails?</label>
+                <select name="signup" id="signup" class="form-control">
+                    <option value=true>Yes</option>
+                    <option value=false>No</option>
+                </select>
+            </div>
+    </div>
+</form>
+
+
+<button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#needToMatch">
+    Show Modal
+</button>
+
+<div class="modal" id="needToMatch">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 class="modal-title">First Modal</h2>
+                <button type="button" class="close" data-bs-dismiss="modal">
+                    <span>&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <p>This is the modal body</p>
+            </div>
+            <div class="modal-footer">
+                <p>This is the modal footer</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div class="container">
+    <div class="card-deck">
+        <div class="card">
+        <img src="https://i.imgur.com/M8R9D4K.jpg" class="img-fluid" alt="Batman"/>
+            <div class="card-body">
+                <h3 class="card-title">Batman</h3>
+                <h5 class="clard-subtitle">Ben Affleck</h5>
+                <p>A man in a skin tight lycra spits while he shouts.</p>
+            </div>
+        </div>
+        <div class="card">
+        <img src="https://i.imgur.com/4uu9fbi.jpg" class="img-fluid" alt="Clifford"/>
+            <div class="card-body">
+                <h3 class="card-title">Clifford</h3>
+                <h5 class="clard-subtitle">The big red doge</h5>
+                <p>A giant dog breaks in to a brewery. What happens next will shock you!</p>
+            </div>
+        </div>
+        <div class="card">
+        <img src="https://i.imgur.com/OmulKtJ.jpg" class="img-fluid" alt="National Treasure"/>
+            <div class="card-body">
+                <h3 class="card-title">National Treasure</h3>
+                <h5 class="clard-subtitle">A National Treasure</h5>
+                <p>A national treasure searches for a national treasure in a movie called National Treasure.</p>
+            </div>
+        </div>
+    </div>       
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" 
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!-- 
+    <form method="Post" action="CSS/location">
+    </form> 
+
+    <label for=""></label>
+
+    -->
+
+    <form>
+      Please enter your name:
+<br />
+      <input
+        type="text"
+        placeholder="Please enter first and last name"
+        name="fName"
+      />
+<br /><br>
+      <textarea name="textArea" rows="4" cols="10">Enter your address</textarea>
+<br /><br>
+
+        Radio buttoms 
+        <input type="radio" name="radio" value="Football">Football
+        <input type="radio" name="radio" value="Volleyball">Volleyball
+        <input type="radio" name="radio" value="Tennis">Tennis
+        <input type="radio" name="radio" value="Swimming">Swimming
+<br><br>
+        Checkboxes
+        <input type="checkbox" name="checkTea" value="Yes">Tea?
+        <input type="checkbox" name="checkCoffee" value="Yes">Coffee?
+<br><br>
+        Dropdown
+        <select name="Games" id="Games">
+            <option value="" disabled selected>Please select your option</option>
+            <option value="Fifa">Fifa</option>
+            <option value="Resident Evil">Resident Evil</option>
+            <option value="Overwatch">Overwatch</option>
+        </select>
+<br><br>
+        Dropdown: multiple
+        <select name="Games" id="Games" size="2" multiple>
+            <option value="Fifa">Fifa</option>
+            <option value="Resident Evil">Resident Evil</option>
+            <option value="Overwatch">Overwatch</option>
+            <option value="Warzone">Warzone</option>
+        </select>
+
+<br><br>
+        Search a item/list
+        <input list="games"/>
+        <datalist id="games">
+            <option value="Fifa">Fifa</option>
+            <option value="Resident Evil">Resident Evil</option>
+            <option value="Overwatch">Overwatch</option>
+            <option value="Warzone">Warzone</option>
+        </datalist>
+<br><br>
+        <label for="">Enter an email</label>
+        <input type="email" name="email">
+
+<br><br>
+        <label for="">Numbers 1-100</label>
+        <input type="number" min="1" max="100">   
+
+<br><br>
+        <label for="">Range</label>
+        <input type="range" min="1" mac="20">
+<br><br>
+        <label for="">Date</label>
+        <input type="date">
+<br><br>
+        <label for="">Search</label>
+        <input type="seach" q=SearchProducts>
+        <button type="back" name="searchBtn">Search</button>
+<br><br>
+        Requested format
+        <input type="text" pattern="[0-9]{13,16} name="credit" autofocus="true">
+
+<br><br>
+        <fieldset>
+            <legend>
+                Your details
+            </legend>
+                <label>First Name</label>
+                <input type="text" id="firstName">
+                <label>Last Name</label>
+                <input type="text" id="LastName">
+                
+        </fieldset>
+        
+
+<br><br>
+      <button type="back" name="backBtn">BACK</button>
+      <button type="reset" name="resetBtn">RESET</button>
+      <button type="submit" name="submitBtn">SUBMIT</button>
+    </form>
+  </body>
+</html>
